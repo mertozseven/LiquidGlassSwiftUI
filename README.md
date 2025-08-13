@@ -3,6 +3,9 @@
 An iOS SwiftUI sample that showcases Apple's new Glass effect with interactive controls layered over a full-bleed background image. The app demonstrates composing glass containers, sharing a visual style across elements, and animating state with smooth symbol transitions.
 
 ### Demo
+
+https://github.com/user-attachments/assets/c28c6eaf-8ee3-4f46-b06a-98245fe4eb01
+
 - Quote text displayed on a glass panel over a scenic background
 - Expandable action cluster with Share, Save, and Like glass buttons
 - Smooth transitions and symbol replacements when toggling actions
@@ -53,8 +56,3 @@ If you target earlier iOS versions or older Xcode releases, the Glass-related AP
 - `.glassEffectID("...", in: namespace)`: Associates related glass elements across states for coherent transitions.
 - `.contentTransition(.symbolEffect(.replace))`: Smooth symbol replacement for SFSymbols.
 - `@Namespace`: Coordinates shared IDs across view hierarchies.
-
-### Videos
-
-https://github.com/user-attachments/assets/c28c6eaf-8ee3-4f46-b06a-98245fe4eb01
-
