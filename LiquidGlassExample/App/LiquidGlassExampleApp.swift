@@ -11,7 +11,7 @@ import SwiftUI
 struct LiquidGlassExampleApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView(quote: "Liquid Glass Example")
         }
     }
 }
