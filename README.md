@@ -11,7 +11,7 @@ https://github.com/user-attachments/assets/c28c6eaf-8ee3-4f46-b06a-98245fe4eb01
 - Smooth transitions and symbol replacements when toggling actions
 
 ### Features
-- **Modern SwiftUI Glass**: Uses `.glassEffect(.clear.interactive())` to render frosted, depth-aware glass surfaces.
+- **Liquid Glass**: Uses `.glassEffect()` to render reflective, depth-aware glass surfaces.
 - **Glass coherence and transitions**: Shares a visual identity between elements using `.glassEffectID(_, in:)` coordinated by `GlassEffectContainer`.
 - **Composable views**: Small, testable SwiftUI views (`QuoteView`, `ActionButtonsView`, `ExpandedActionsView`, `BackgroundView`).
 - **Stateful actions**: Like/Save toggles with `.contentTransition(.symbolEffect(.replace))` for fluid icon changes.
@@ -29,7 +29,7 @@ If you target earlier iOS versions or older Xcode releases, the Glass-related AP
 3. Build and Run.
 
 ### How to Use
-- Tap the ellipsis button (`…`) to expand additional actions.
+- Tap the more button (`…`) to expand additional actions.
 - Tap the heart to like/unlike. The icon and tint animate.
 - Tap the bookmark to save/unsave.
 - Tap Share to trigger a placeholder action (prints to the console). Replace with a real share flow as needed.
